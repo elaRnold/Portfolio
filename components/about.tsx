@@ -33,13 +33,13 @@ export default function About() {
         <p className="mb-3 text-lg">
         My favorite part of programming is the
         problem solving aspect. I <span className="underline">love</span> the feeling of finally finding a solution
-        to a problem. My main stack is <span className="font-medium">React, Next.js, Laravel and Flutter</span>. I'm
+        to a problem. My main stack is <span className="font-medium">React, Next.js, Laravel and Flutter</span>. I&apos;m
         also familiar with TypeScript and Microsoft Azure. I am always looking
         to learn new technologies.
       </p>
 
       <p className="text-lg">
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
         video games 🎮, watching movies 🎬, and playing with my dog 🐶. I also enjoy learning
         new recipes 🍝🍽️.
       </p>
