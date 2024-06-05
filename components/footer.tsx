@@ -10,7 +10,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="mb-10 px-4 text-center text-gray-500 dark:text-white">
+    <footer className="mt-36 px-4 text-center text-gray-500 dark:text-white">
       <small className="mb-2 block text-xs">
         &copy; {year} Arnaldo Benavides. All rights reserved.
       </small>
