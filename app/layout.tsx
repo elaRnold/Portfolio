@@ -7,6 +7,7 @@ import ThemeContextProvider from "@/contex/theme-context";
 import Footer from "@/components/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import BubbleBackground from "@/components/BubbleBackground";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,8 +33,9 @@ export default function RootLayout({
             <BubbleBackground />
             <Header />
             {children}
-            <SpeedInsights />
             <Footer />
+            <SpeedInsights />
+            <Analytics />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
