@@ -30,6 +30,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <SpeedInsights />
             <Footer />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
