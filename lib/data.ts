@@ -38,18 +38,10 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "Junior FullStack Developer",
-    location: "Barranquilla",
-    description:
-      "I worked as a junior FullStack developer for 3 months in a hospital. My role was to remodel part of the company's internal system. During this time I improved my PHP skills.",
-    icon: React.createElement(FaPhp),
-    date: "2023",
-  },
-  {
     title: "FullStack Developer",
     location: "Barranquilla",
     description:
-      "I worked as an independent provider in an R&D project at the Universidad del Norte for 6 months, there I improved my skills in Laravel and web hosting.",
+      "I worked as an independent provider in an R&D project at the Universidad del Norte, there I improved my skills in Laravel and web hosting.",
     icon: React.createElement(FaLaravel),
     date: "2023",
   },
@@ -57,7 +49,7 @@ export const experiencesData = [
     title: "React Full-Stack Developer",
     location: "México",
     description:
-      "I worked as a freelance Fullstack developer for Neoseg (6 months), during that time I improved my skills in React - Electron.js - Firebase",
+      "I worked as a freelance Fullstack developer for Neoseg, during that time I improved my skills in React - Electron.js - Firebase",
     icon: React.createElement(FaReact),
     date: "2024",
   },
