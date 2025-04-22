@@ -1,3 +1,5 @@
+"use client";
+
 import Particles from "react-tsparticles";
 import { loadAll } from "tsparticles-all";
 
@@ -10,7 +12,7 @@ export default function BubbleBackground() {
         <Particles
             id="tsparticles"
             init={particlesInit}
-            className="absolute top-0 left-0 w-full h-full -z-10"
+            className="absolute top-0 left-0 w-full h-full -z-[999]"
             options={{
                 background: {
                     color: { value: "transparent" },
