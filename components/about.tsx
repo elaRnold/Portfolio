@@ -24,7 +24,7 @@ export default function About() {
         frameworks and technologies. I enrolled in various programming courses
         at Udemy and the Colombian ICT Ministry, where I learned complete{" "}
         <span className="font-medium">web/mobile development</span>. One of my greatest achievements was working for
-        the University of the North (Barranquilla) on an R&amp;D project about Covid
+        the Universidad del Norte (Barranquilla) on an R&amp;D project about Covid
         19 in older adults, there I was able to develop a toolkit to support
         health professionals to determine if a patient had chances of
         contracting this condition.
@@ -32,8 +32,8 @@ export default function About() {
 
       <p className="mb-3 text-lg">
         My favorite part of programming is the
-        problem solving aspect. I <span className="underline">love</span> the feeling of finally finding a solution
-        to a problem. My main stack is <span className="font-medium">Next.js, Nest.js, Laravel, and Node</span>. I&apos;m
+        problem-solving. I <span className="underline">love</span> the feeling of finally finding solutions
+        to any problem. My main stack is <span className="font-medium">Next.js, Nest.js, Laravel, and Node</span>. I&apos;m
         also familiar with TypeScript and Microsoft Azure. I am always looking
         to learn new technologies.
       </p>
