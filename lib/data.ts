@@ -30,8 +30,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Systems Engineering Degree",
-    location: "Barranquilla",
+    title: "Bachelor in computer science",
+    location: "Barranquilla / Universidad del Norte",
     description:
       "I graduated after 5 years of study. I immediately found a job as a Junior FullStack developer.",
     icon: React.createElement(LuGraduationCap),
@@ -39,7 +39,7 @@ export const experiencesData = [
   },
   {
     title: "FullStack Developer",
-    location: "Barranquilla",
+    location: "Barranquilla / Universidad del Norte",
     description:
       "I worked as an independent provider in an R&D project at the Universidad del Norte, there I improved my skills in Laravel and web hosting.",
     icon: React.createElement(FaLaravel),
@@ -47,17 +47,17 @@ export const experiencesData = [
   },
   {
     title: "React Full-Stack Developer",
-    location: "México",
+    location: "México / Neoseg",
     description:
       "I worked as a freelance Fullstack developer for Neoseg, during that time I improved my skills in React - Electron.js - Firebase",
     icon: React.createElement(FaReact),
     date: "2024",
   },
   {
-    title: "FrontEnd Developer",
-    location: "Barranquilla",
+    title: "Full-Time FrontEnd Developer",
+    location: "Barranquilla - Bogotá / Infinity Tech",
     description:
-      "I am now a full-time FrontEnd developer working for Infinity Tech. My stack includes React, Next.js, TypeScript, Tailwind, and more.",
+      "I'm currently a full-time remote front-end developer for Infinity Tech, a web solutions company for all types of markets. My stack includes Next.js, Angular, TypeScript, Tailwind, and more.",
     icon: React.createElement(FaReact),
     date: "2024 - Present",
   },
@@ -73,8 +73,7 @@ export const projectsData = [
   },
   {
     title: "Space Invaders",
-    description:
-      "2D arcade game made with vanilla JavaScript.",
+    description: "2D arcade game made with vanilla JavaScript.",
     tags: ["HTML", "JavaScript"],
     imageUrl: NavesEspaciales,
   },
@@ -94,12 +93,13 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Nest.js",
   "Node.js",
   "Git",
   "Tailwind",
   "Bootstrap",
   "MySQL",
-  "Redux",
+  "Zustand",
   "Express",
   "Python",
   "PHP",
@@ -107,4 +107,8 @@ export const skillsData = [
   "Firebase",
   "Azure",
   "Framer Motion",
+  "Zod",
+  "Bilingual: Spanish/English",
+  "Effective communication",
+  "Project leadership",
 ] as const;

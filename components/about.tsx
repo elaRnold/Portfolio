@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-lg">
-        After graduating as a <span className="font-medium">systems engineer</span>, 
+        After earning my bachelor's degree in <span className="font-medium">computer science</span>, 
         I decided to expand my passion for programming by working as a freelancer while learning various
         frameworks and technologies. I enrolled in various programming courses
         at Udemy and the Colombian ICT Ministry, where I learned complete{" "}
@@ -33,7 +33,7 @@ export default function About() {
         <p className="mb-3 text-lg">
         My favorite part of programming is the
         problem solving aspect. I <span className="underline">love</span> the feeling of finally finding a solution
-        to a problem. My main stack is <span className="font-medium">React, Next.js, Laravel and Flutter</span>. I&apos;m
+        to a problem. My main stack is <span className="font-medium">Next.js, Nest.js, Laravel, and Node</span>. I&apos;m
         also familiar with TypeScript and Microsoft Azure. I am always looking
         to learn new technologies.
       </p>
