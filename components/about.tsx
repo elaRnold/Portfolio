@@ -19,18 +19,18 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3 text-lg">
-        After earning my bachelor's degree in <span className="font-medium">computer science</span>, 
+        After earning my bachelor&apos;s degree in <span className="font-medium">computer science</span>,
         I decided to expand my passion for programming by working as a freelancer while learning various
         frameworks and technologies. I enrolled in various programming courses
         at Udemy and the Colombian ICT Ministry, where I learned complete{" "}
         <span className="font-medium">web/mobile development</span>. One of my greatest achievements was working for
-        the University of the North (Barranquilla) on an R&D project about Covid
+        the University of the North (Barranquilla) on an R&amp;D project about Covid
         19 in older adults, there I was able to develop a toolkit to support
         health professionals to determine if a patient had chances of
-        contracting this condition. 
-        </p>
+        contracting this condition.
+      </p>
 
-        <p className="mb-3 text-lg">
+      <p className="mb-3 text-lg">
         My favorite part of programming is the
         problem solving aspect. I <span className="underline">love</span> the feeling of finally finding a solution
         to a problem. My main stack is <span className="font-medium">Next.js, Nest.js, Laravel, and Node</span>. I&apos;m
@@ -43,6 +43,7 @@ export default function About() {
         video games 🎮, watching movies 🎬, and playing with my dog 🐶. I also enjoy learning
         new recipes 🍝🍽️.
       </p>
+
     </motion.section>
   );
 }
