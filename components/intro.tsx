@@ -1,17 +1,15 @@
 "use client";
 import Image from "next/image";
-import SantaMarta from "@/public/SantaMarta.jpeg";
+import Portfolio from "@/public/Portfolio.jpeg";
 import { motion } from "framer-motion";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import Link from "next/link";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
-import { useActiveSectionContext } from "@/contex/active-section-context";
 import { useSectionInView } from "@/lib/hooks";
 
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
-  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -30,29 +28,14 @@ const Intro = () => {
             }}
           >
             <Image
-              src={SantaMarta}
-              alt="Arnaldo Foto"
-              width="192"
-              height="192"
-              quality="100"
+              src={Portfolio}
+              alt="Arnaldo's Foto"
+              width="864"
+              height="1101"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-60 w-60 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
-
-          <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
-            initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{
-              type: "spring",
-              stiffness: 125,
-              delay: 0.1,
-              duration: 0.7,
-            }}
-          >
-            👋
-          </motion.span>
         </div>
       </div>
 
@@ -62,14 +45,12 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I&apos;m Arnaldo.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">3 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="font-bold">React (Next.js)</span>
-        {" - "}
-        <span className="font-bold">PHP (Laravel)</span>
-        {" - "}
-        <span className="font-bold">Flutter</span>
+        <span className="font-bold">full-stack software engineer</span> with{" "}
+        <span className="font-bold">over 3 years</span> of experience. I enjoy
+        building <span className="italic">sites & applications</span>  using development <span className="font-bold">best practices</span>. My focus is{" "}
+        <span className="font-bold">Next.js</span>
+        {" and "}
+        <span className="font-bold">Nest.js</span> with TypeScript.
       </motion.h1>
 
       <motion.div
@@ -82,25 +63,27 @@ const Intro = () => {
       >
         <Link
           href="MailTo:Arnaldobenavides.ab@gmail.com"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:bg-white/10"
-          onClick={() => {
-          }}
+          className="group bg-black/10 dark:bg-white/10 text-black dark:text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none cursor-pointer borderBlack
+        hover:bg-black hover:text-white
+        dark:hover:bg-gray-950 dark:hover:text-white"
         >
-          Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <span>Contact me here </span>
+          <BsArrowRight className="mt-[2px]" />
         </Link>
 
         <a
-          className="group bg-white px-7 mx-1 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group bg-black/10 dark:bg-white/10 text-black dark:text-white px-7 mx-1 py-3 flex items-center gap-2 rounded-full outline-none cursor-pointer borderBlack
+        hover:bg-black hover:text-white
+        dark:hover:bg-gray-950 dark:hover:text-white"
           href="/CV.pdf"
           download
         >
           Download CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="" />
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-black/10 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-gray-950 dark:hover:text-white p-4 text-black dark:text-white flex items-center gap-2 rounded-full cursor-pointer borderBlack"
           href="https://www.linkedin.com/in/arnaldobr/"
           target="_blank"
         >
@@ -108,7 +91,7 @@ const Intro = () => {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-black/10 dark:bg-white/10 hover:bg-black hover:text-white dark:hover:bg-gray-950 dark:hover:text-white p-4 text-black dark:text-white flex items-center gap-2 text-[1.35rem] rounded-full cursor-pointer borderBlack"
           href="https://github.com/elaRnold"
           target="_blank"
         >
